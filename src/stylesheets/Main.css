@@ -1,0 +1,8 @@
+.main {
+  width: 80%;
+  margin: auto;
+  height: auto;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
