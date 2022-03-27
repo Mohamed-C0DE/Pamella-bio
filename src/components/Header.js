@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 import "../stylesheets/Header.css";
 
 const Header = () => {
@@ -24,41 +25,30 @@ const Header = () => {
     return (
       <nav className="header navbar navbar-expand-lg navbar-light flex-column">
         <div className="container-fluid justify-content-between">
-          <a className="navbar-brand" href="#">
+          <Link className="navbar-brand" to="/">
             <h2>PAMELLA ORGOR</h2>
-          </a>
-          {/* <button
-            className="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span className="navbar-toggler-icon"></span>
-          </button> */}
+          </Link>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0 justify-content-center">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">
+                <Link className="nav-link" to="/about">
                   ABOUT
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <Link className="nav-link" to="/services">
                   SERVICES
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <Link className="nav-link" to="/books">
                   BOOKS
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <Link className="nav-link" to="/community">
                   COMMUNITY
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -68,10 +58,7 @@ const Header = () => {
   }
   return (
     <nav className="header navbar navbar-expand-lg navbar-light flex-column">
-      <div className="container-fluid justify-content-between">
-        <a className="navbar-brand" href="#">
-          <h2>PAMELLA ORGOR</h2>
-        </a>
+      <div className="container-fluid">
         <button
           className="navbar-toggler"
           type="button"
@@ -83,27 +70,30 @@ const Header = () => {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
+        <Link className="navbar-brand text-center" to="/">
+          <h2>PAMELLA ORGOR</h2>
+        </Link>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0 justify-content-center">
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#">
+              <Link className="nav-link" to="/about">
                 ABOUT
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <Link className="nav-link" to="/services">
                 SERVICES
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <Link className="nav-link" to="/books">
                 BOOKS
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <Link className="nav-link" to="/community">
                 COMMUNITY
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
@@ -113,17 +103,3 @@ const Header = () => {
 };
 
 export default Header;
-
-{
-  /* <header className="header">
-  <h1>PAMELLA ORGOR</h1>
-  <nav>
-    <ul className="navbar">
-      <li className="nav-links">ABOUT</li>
-      <li className="nav-links">SERVICES</li>
-      <li className="nav-links">BOOKS</li>
-      <li className="nav-links">COMMUNITY</li>
-    </ul>
-  </nav>
-</header> */
-}
