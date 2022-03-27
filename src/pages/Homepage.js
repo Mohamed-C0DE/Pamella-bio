@@ -1,7 +1,7 @@
 import { Fragment } from "react";
 import Header from "../components/Header";
 import Main from "../UI/Main";
-import LineBreak from "../UI/LineBreak";
+import SectionDivider from "../UI/SectionDivider";
 import "../stylesheets/Homepage.css";
 import Footer from "../components/Footer";
 
@@ -11,7 +11,7 @@ const Homepage = () => {
       <Header />
       <Main className="homepage">
         <div className="jumbotron"></div>
-        <LineBreak />
+        <SectionDivider />
       </Main>
       <Footer />
     </Fragment>
