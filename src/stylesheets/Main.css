@@ -1,8 +1,20 @@
 .main {
-  width: 80%;
+  width: 100%;
   margin: auto;
   height: auto;
   overflow: hidden;
   display: flex;
   flex-direction: column;
+}
+
+@media only screen and (min-width: 400px) {
+  .main {
+    width: 90%;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .main {
+    width: 80%;
+  }
 }
