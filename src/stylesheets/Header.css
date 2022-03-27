@@ -1,22 +1,66 @@
-.container-fluid {
+.navbar .container-fluid {
   padding: 0;
+  justify-content: center;
 }
 .navbar-toggler {
   border: none;
   margin-top: -9px;
+  padding: 0;
+  position: absolute;
+  left: 5px;
+  top: 22px;
 }
 .navbar-toggler:focus {
-  box-shadow: 0;
-  color: #fff;
+  box-shadow: 0 0 0 0;
 }
 .header {
   margin: auto;
-  width: 80%;
+  width: 100%;
 }
-.navbar-brand h2 {
+.navbar .navbar-brand {
+  margin-right: 0;
+}
+.navbar .navbar-brand h2 {
   font-weight: 200;
   letter-spacing: 3px;
+  color: #000;
+  padding-left: 10px;
 }
 .nav-link {
   text-align: center;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+@media only screen and (min-width: 400px) {
+  .header {
+    margin: auto;
+    width: 90%;
+  }
+  .navbar-toggler {
+    border: none;
+    margin-top: -9px;
+    padding: 0;
+    position: absolute;
+    left: 0px;
+    top: 22px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .navbar .container-fluid {
+    flex-direction: column;
+  }
+  .header {
+    margin: auto;
+    width: 80%;
+    flex-direction: column;
+  }
+  .navbar .navbar-brand h2 {
+    padding-left: 0px;
+  }
+  .nav-link {
+    padding: 15px 0;
+    font-size: 12px;
+  }
 }
