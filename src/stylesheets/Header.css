@@ -1,23 +1,22 @@
+.container-fluid {
+  padding: 0;
+}
+.navbar-toggler {
+  border: none;
+  margin-top: -9px;
+}
+.navbar-toggler:focus {
+  box-shadow: 0;
+  color: #fff;
+}
 .header {
   margin: auto;
   width: 80%;
 }
-.header h1 {
-  text-align: center;
+.navbar-brand h2 {
   font-weight: 200;
   letter-spacing: 3px;
 }
-.navbar {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-inline-start: 0;
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
-.nav-links {
-  list-style-type: none;
-  font-size: 13px;
-  font-weight: 300;
-  padding: 0 20px;
+.nav-link {
+  text-align: center;
 }
