@@ -26,7 +26,7 @@ const Header = () => {
       <nav className="header navbar navbar-expand-lg navbar-light flex-column">
         <div className="container-fluid justify-content-between">
           <Link className="navbar-brand" to="/">
-            <h2>PAMELLA ORGOR</h2>
+            <h2>PAMELLA OH</h2>
           </Link>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0 justify-content-center">
@@ -36,8 +36,13 @@ const Header = () => {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/services">
-                  SERVICES
+                <Link className="nav-link" to="/websites">
+                  WEBSITES
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/speaking">
+                  PUBLIC SPEAKING
                 </Link>
               </li>
               <li className="nav-item">
@@ -47,7 +52,7 @@ const Header = () => {
               </li>
               <li className="nav-item">
                 <Link className="nav-link" to="/community">
-                  COMMUNITY
+                  COMMUNITY WORK
                 </Link>
               </li>
             </ul>
@@ -71,7 +76,7 @@ const Header = () => {
           <span className="navbar-toggler-icon"></span>
         </button>
         <Link className="navbar-brand text-center" to="/">
-          <h2>PAMELLA ORGOR</h2>
+          <h2>PAMELLA OH</h2>
         </Link>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0 justify-content-center">
@@ -81,8 +86,13 @@ const Header = () => {
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/services">
-                SERVICES
+              <Link className="nav-link" to="/websites">
+                WEBSITES
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/speaking">
+                PUBLIC SPEAKING
               </Link>
             </li>
             <li className="nav-item">
@@ -92,7 +102,7 @@ const Header = () => {
             </li>
             <li className="nav-item">
               <Link className="nav-link" to="/community">
-                COMMUNITY
+                COMMUNITY WORK
               </Link>
             </li>
           </ul>
