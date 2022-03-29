@@ -2,9 +2,10 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Homepage from "./pages/Homepage";
 import About from "./pages/About";
-import Services from "./pages/Services";
+import PublicSpeaking from "./pages/PublicSpeaking";
 import Books from "./pages/Books";
 import Community from "./pages/Community";
+import Websites from "./pages/Websites";
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path="/about" element={<About />} />
-        <Route path="/services" element={<Services />} />
+        <Route path="/websites" element={<Websites />} />
+        <Route path="/speaking" element={<PublicSpeaking />} />
         <Route path="/books" element={<Books />} />
         <Route path="/community" element={<Community />} />
       </Routes>
