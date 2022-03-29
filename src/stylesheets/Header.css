@@ -22,14 +22,14 @@
 }
 .navbar .navbar-brand h2 {
   font-weight: 200;
-  letter-spacing: 3px;
+  letter-spacing: 2px;
   color: #000;
   padding-left: 10px;
 }
-.nav-link {
+.nav-item .nav-link {
   text-align: center;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 13px;
 }
 
 @media only screen and (min-width: 400px) {
@@ -44,6 +44,9 @@
     position: absolute;
     left: 0px;
     top: 22px;
+  }
+  .navbar .navbar-brand h2 {
+    letter-spacing: 5px;
   }
 }
 
