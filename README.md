@@ -2,7 +2,7 @@
 
 Pamella-bio is a biography website built for Pamella Oh.
 
-Live Site:
+Live Site: https://pamellaoh.netlify.app/
 
 ## Setup
 
