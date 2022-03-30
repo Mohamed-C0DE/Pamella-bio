@@ -1,12 +1,14 @@
 import React, { Fragment } from "react";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
+import ScrollToTop from "../components/ScrollToTop";
 import Main from "../UI/Main";
 import "../stylesheets/About.css";
 
 const About = () => {
   return (
     <Fragment>
+      <ScrollToTop />
       <Header />
       <Main>
         <div className="about">
