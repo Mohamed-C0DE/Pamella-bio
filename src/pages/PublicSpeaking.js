@@ -26,11 +26,11 @@ const Services = () => {
               </p>
               <h4>Contact Form</h4>
               <form
-                className="form"
-                name="contact"
+                name="contact-form"
                 method="post"
                 data-netlify="true"
                 onSubmit="submit"
+                className="form"
               >
                 <input type="hidden" name="form-name" value="contact" />
                 <label>Name:</label>
