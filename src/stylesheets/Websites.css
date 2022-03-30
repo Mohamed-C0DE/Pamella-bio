@@ -1,0 +1,85 @@
+.websites .websites-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.websites h3 {
+  text-align: center;
+  font-weight: 300;
+  padding-bottom: 10px;
+}
+
+.websites a {
+  text-decoration: none;
+}
+
+.websites .img p {
+  font-weight: 600;
+  background-color: black;
+  color: white;
+  padding: 0 5px;
+}
+
+.websites .websites-gallery .img:hover {
+  transform: scale(1.02);
+  transition: all 0.4s ease-in-out;
+}
+
+.websites .column {
+  flex: 50%;
+  max-width: 50%;
+  padding: 0 4px;
+}
+
+.websites .websites-gallery .img {
+  height: 400px;
+  width: 100%;
+  margin: 10px 0;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.websites .img1 {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+.websites .img1 {
+  background-image: url(../images/Dank-Beauty-Co.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.websites .img2 {
+  background-image: url(../images/Pam-Oh-Herbs.png);
+}
+
+.websites .img3 {
+  background-image: url(../images/MOGGPAM.png);
+}
+
+.websites .img4 {
+  background-image: url(../images/dankluxeproperties.png);
+}
+
+.websites .img5 {
+  background-image: url(../images/My-Organic-Chef.png);
+}
+
+.websites .img6 {
+  background-image: url(../images/Pam-s-Kids.png);
+}
+
+/* Media query's */
+
+@media screen and (max-width: 600px) {
+  .websites .column {
+    flex: 100%;
+    max-width: 100%;
+    /* padding: 0 4px; */
+  }
+}
