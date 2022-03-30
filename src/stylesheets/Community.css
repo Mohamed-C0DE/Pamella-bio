@@ -1,0 +1,42 @@
+.community {
+  padding-bottom: 10px;
+}
+
+.community h3 {
+  font-weight: 300;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.community .community-row {
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 700px;
+}
+
+.community .card {
+  width: 33%;
+  border: none;
+  padding: 25px 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Media query's */
+
+@media screen and (min-width: 400px) and (max-width: 600px) {
+  .community .card {
+    /* flex-direction: column; */
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .community .card {
+    /* flex-direction: column; */
+    flex: 100%;
+    max-width: 100%;
+  }
+}
