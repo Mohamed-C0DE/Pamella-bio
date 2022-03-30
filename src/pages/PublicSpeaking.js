@@ -12,11 +12,35 @@ const Services = () => {
         <div className="speaking">
           <div className="speaking-row">
             <div className="column">
-              <img src="https://images.unsplash.com/photo-1574802406791-ef6898f311d3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=382&q=80" />
+              <div className="img"></div>
             </div>
             <div className="column">
               <h3>Hosting An Event About Entrepreneurship or Startups?</h3>
-              <p>Look no further</p>
+              <p>
+                Having experience building successful, world-class businesses
+                across several industries, I would love to share my experience
+                to help others achieve success. Fill out the form below to
+                contact me if your in need of a guest speaker.
+              </p>
+              <h4>Contact Form</h4>
+              <form className="form" name="contact" method="post">
+                <input
+                  type="hidden"
+                  name="form-name"
+                  value="contact"
+                  required
+                />
+                <label>Name:</label>
+                <input type="text" name="name" required />
+                <label>Email:</label>
+                <input type="email" name="email" />
+                <label>Message:</label>
+                <textarea
+                  name="message"
+                  placeholder="Enter details like time, address, event subject, and what to speak about."
+                />
+                <button type="submit">Submit</button>
+              </form>
             </div>
           </div>
         </div>
