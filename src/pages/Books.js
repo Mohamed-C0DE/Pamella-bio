@@ -38,6 +38,7 @@ const Books = () => {
                     href="https://www.amazon.ca/ABC-Medicinal-Herbs-Pamella-Orgor/dp/1777961572/ref=sr_1_1?qid=1648604233&refinements=p_27%3APamella+Orgor&s=books&sr=1-1&text=Pamella+Orgor"
                     className="btn btn-dark"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     View Book
                   </a>
@@ -69,6 +70,7 @@ const Books = () => {
                     href="https://www.amazon.ca/Cannabis-Cookbook-Pamella-Orgor/dp/177796153X/ref=sr_1_2?qid=1648604233&refinements=p_27%3APamella+Orgor&s=books&sr=1-2&text=Pamella+Orgor"
                     className="btn btn-dark"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     View Book
                   </a>
