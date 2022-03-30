@@ -2,13 +2,14 @@ import { Fragment } from "react";
 import { Link } from "react-router-dom";
 import Header from "../components/Header";
 import Main from "../UI/Main";
-import SectionDivider from "../UI/SectionDivider";
+import ScrollToTop from "../components/ScrollToTop";
 import Footer from "../components/Footer";
 import "../stylesheets/Homepage.css";
 
 const Homepage = () => {
   return (
     <Fragment>
+      <ScrollToTop />
       <Header />
       <Main>
         <div className="homepage">
