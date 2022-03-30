@@ -32,12 +32,7 @@ const Services = () => {
                 data-netlify="true"
                 onSubmit="submit"
               >
-                <input
-                  type="hidden"
-                  name="form-name"
-                  value="contact"
-                  required
-                />
+                <input type="hidden" name="form-name" value="contact" />
                 <label>Name:</label>
                 <input type="text" name="name" required />
                 <label>Email:</label>
