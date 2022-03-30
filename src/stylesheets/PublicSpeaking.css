@@ -61,11 +61,3 @@
     padding-top: 10px;
   }
 }
-
-/*
-@media screen and (max-width: 768px) {
-  .speaking .column {
-    flex: 75%;
-    max-width: 75%;
-  }
-} */
