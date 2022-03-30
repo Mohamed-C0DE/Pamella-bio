@@ -25,7 +25,13 @@ const Services = () => {
                 contact me if your in need of a guest speaker.
               </p>
               <h4>Contact Form</h4>
-              <form className="form" name="contact" method="post">
+              <form
+                className="form"
+                name="contact"
+                method="post"
+                data-netlify="true"
+                onSubmit="submit"
+              >
                 <input
                   type="hidden"
                   name="form-name"
