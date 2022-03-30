@@ -27,7 +27,6 @@
 
 @media screen and (min-width: 400px) and (max-width: 600px) {
   .community .card {
-    /* flex-direction: column; */
     flex: 50%;
     max-width: 50%;
   }
@@ -35,7 +34,6 @@
 
 @media screen and (max-width: 400px) {
   .community .card {
-    /* flex-direction: column; */
     flex: 100%;
     max-width: 100%;
   }
