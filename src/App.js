@@ -5,7 +5,7 @@ import About from "./pages/About";
 import PublicSpeaking from "./pages/PublicSpeaking";
 import Books from "./pages/Books";
 import Community from "./pages/Community";
-import Websites from "./pages/Websites";
+import Commercial from "./pages/Commercial";
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path="/about" element={<About />} />
-        <Route path="/websites" element={<Websites />} />
+        <Route path="/commercial" element={<Commercial />} />
         <Route path="/speaking" element={<PublicSpeaking />} />
         <Route path="/books" element={<Books />} />
         <Route path="/community" element={<Community />} />
