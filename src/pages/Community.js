@@ -97,6 +97,16 @@ const Community = () => {
                 />
               </a>
             </div>
+
+            <div className="card no-logo-charity">
+              <a
+                href="http://www.houstontx.gov/barc/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <p>BARC ANIMAL SHELTER AND ADOPTIONS</p>
+              </a>
+            </div>
           </div>
         </div>
       </Main>
