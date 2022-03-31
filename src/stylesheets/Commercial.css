@@ -1,3 +1,6 @@
+.commercial {
+  padding-bottom: 10px;
+}
 .commercial .commercial-gallery {
   display: grid;
   grid-template-columns: 32% 32% 32%;
