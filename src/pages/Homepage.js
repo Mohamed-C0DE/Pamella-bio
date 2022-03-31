@@ -37,9 +37,9 @@ const Homepage = () => {
                   <p>About</p>
                 </div>
               </Link>
-              <Link to="/websites">
+              <Link to="/commercial">
                 <div className="img img2">
-                  <p>Websites</p>
+                  <p>Commercial</p>
                 </div>
               </Link>
             </div>
