@@ -44,6 +44,8 @@
   width: 70px;
   font-weight: 400;
   margin-top: 7px;
+  background-color: gainsboro;
+  color: #000;
 }
 
 /* Media query's */
