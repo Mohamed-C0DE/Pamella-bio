@@ -3,6 +3,7 @@ import Footer from "../components/Footer";
 import Header from "../components/Header";
 import ScrollToTop from "../components/ScrollToTop";
 import Main from "../UI/Main";
+import Image from "../images/IMG_1264.png";
 import "../stylesheets/About.css";
 
 const About = () => {
@@ -14,10 +15,7 @@ const About = () => {
         <div className="about">
           <div>
             <p>
-              <img
-                src="https://images.unsplash.com/photo-1491616569293-e27f7f4cd41a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
-                alt="avatar"
-              />
+              <img src={Image} alt="avatar" />
               <span>
                 <h3>About</h3>
               </span>
