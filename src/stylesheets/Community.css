@@ -9,19 +9,19 @@
 }
 
 .community .community-row {
-  display: flex;
-  flex-wrap: wrap;
-  min-height: 700px;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  gap: 10px;
 }
 
 .community .card {
-  width: 33%;
-  height: 320px;
+  width: 100%;
+  min-height: 350px;
   border: none;
-  padding: 25px 5px;
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
 }
 
 .community .no-logo-charity a {
@@ -30,7 +30,7 @@
   height: 100%;
   text-decoration: none;
   color: #000;
-  font-weight: bold;
+  font-weight: 400;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -39,16 +39,14 @@
 
 /* Media query's */
 
-@media screen and (min-width: 400px) and (max-width: 600px) {
-  .community .card {
-    flex: 50%;
-    max-width: 50%;
+@media screen and (max-width: 800px) {
+  .community .community-row {
+    grid-template-columns: 50% 50%;
   }
 }
 
-@media screen and (max-width: 400px) {
-  .community .card {
-    flex: 100%;
-    max-width: 100%;
+@media screen and (max-width: 600px) {
+  .community .community-row {
+    grid-template-columns: 100%;
   }
 }
