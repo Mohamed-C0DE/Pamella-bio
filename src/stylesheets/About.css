@@ -1,6 +1,6 @@
 .about {
   padding: 10px 0;
-  height: 600px;
+  min-height: 600px;
 }
 
 .about img {
