@@ -24,17 +24,25 @@
   overflow: hidden;
 }
 
+.community a {
+  text-decoration: none;
+}
+
+.community .no-logo-charity p {
+  color: #fff;
+  font-weight: 600;
+  font-size: 20px;
+}
+
 .community .no-logo-charity a {
-  background-color: gray;
   width: 100%;
   height: 100%;
-  text-decoration: none;
-  color: #000;
-  font-weight: 400;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
+  background-image: url("https://images.pexels.com/photos/1904105/pexels-photo-1904105.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-position: center;
 }
 
 /* Media query's */
