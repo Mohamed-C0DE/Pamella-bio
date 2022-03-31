@@ -1,6 +1,7 @@
 .commercial .commercial-gallery {
   display: grid;
-  grid-template-columns: 33% 33% 33%;
+  grid-template-columns: 32% 32% 32%;
+  justify-content: center;
   gap: 10px;
 }
 
