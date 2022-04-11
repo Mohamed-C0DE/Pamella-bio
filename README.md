@@ -4,10 +4,12 @@ Pamella-bio is a biography website built for Pamella Oh.
 
 Live Site: https://pamellaoh.netlify.app/
 
-## Dependencies
+## Tech Stack
 - React
-- React-Router-Dom
 - Bootstrap
+
+## Dependencies
+- React-Router-Dom
 
 ## Setup
 
