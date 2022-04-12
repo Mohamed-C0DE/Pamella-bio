@@ -8,6 +8,15 @@ Live Site: https://pamellaoh.netlify.app/
 
 <!-- !["Screenshot of final product"](https://github.com/Mohamed-C0DE/scheduler/blob/master/docs/scheduler.gif?raw=true) -->
 
+## Tech Stack
+
+- React
+- Bootstrap
+
+## Dependencies
+
+- React-Router-Dom
+
 ## Setup
 
 Install dependencies with `npm install` and run `npm start` to view on local browser.
