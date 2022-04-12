@@ -6,7 +6,7 @@ Live Site: https://pamellaoh.netlify.app/
 
 ## Final Product
 
-<!-- !["Screenshot of final product"](https://github.com/Mohamed-C0DE/scheduler/blob/master/docs/scheduler.gif?raw=true) -->
+!["Screenshot of final product"](https://github.com/Mohamed-C0DE/Pamella-bio/blob/main/src/images/Pamella-bio.gif?raw=true)
 
 ## Tech Stack
 
