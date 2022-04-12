@@ -4,6 +4,10 @@ Pamella-bio is a biography website built for Pamella Oh.
 
 Live Site: https://pamellaoh.netlify.app/
 
+## Final Product
+
+<!-- !["Screenshot of final product"](https://github.com/Mohamed-C0DE/scheduler/blob/master/docs/scheduler.gif?raw=true) -->
+
 ## Setup
 
 Install dependencies with `npm install` and run `npm start` to view on local browser.
