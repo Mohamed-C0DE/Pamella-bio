@@ -1,6 +1,6 @@
 # Pamella-bio
 
-Freelance project through Riipen. The client, Pamella Oh, wanted a biography website built for her.
+Freelance project through Riipen. The client wanted a biography website built for her.
 
 Live Site: https://pamellaoh.netlify.app/
 
